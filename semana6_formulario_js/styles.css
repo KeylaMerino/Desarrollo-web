@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input.valid {
+  border-color: green;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  visibility: hidden;
+}
+
+.error-message.visible {
+  visibility: visible;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
